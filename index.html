@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"></style>
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></style>
+	<script type="text/javascript" src="js/main.js"async></script>
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+	<div id="container">
+		<div id="hide_selection_block">
+			<h1>Rock Paper Scissors</h1>
+			<h2>Select your weapon:</h2>
+			<div id="selection_block">
+			<div class="icons selectable" id="rock"></div>
+			<div class="icons selectable" id="paper"></div>
+			<div class="icons selectable" id="scissors"></div>
+			</div>
+		</div>
+
+		<div id="play_again_box">
+			<div id="result_box" class="cf">
+				<h2 id="result"></h2>
+				<figure id="left">
+					<h3 class="result_header" id="you_header">You Picked:</h3>
+					<div class="icons" id="human"></div>
+				</figure>
+				
+				<figure id="right">
+					<h3 class="result_header" id="computer_header">Computer Picked:</h3>
+					<div class="icons" id="computer"></div>
+				</figure>
+			</div>
+			<a><h2 id="play_again">Play Again</h2></a>
+		</div>
+	</div>
+</body>
+</html>
