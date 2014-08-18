@@ -13,9 +13,22 @@ h2{
 	margin: 1em 0 0 0; 
 	font-size: 3em;
 }
+#count_down{
+	color:red;
+	margin-top: 10%;
+	font-size: 7em;
+}
+#count_down_container{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+#loading{
+	display:block;
+	margin: 0 auto;
+}
 #result{
-	font-size: 3em;
-	margin-top: 2em;
+	font-size: 5em;
+	margin-top: 1em;
 }
 .selectable{
 	cursor:pointer;
@@ -37,9 +50,23 @@ h2{
 }
 #play_again{
 	cursor:pointer;
+	border:1px solid black;
+	padding:6px 0px;
+	margin: 0 auto;
+	max-width: 30%;
 }
 #play_again:hover{
 	color:red;
+	border:1px dashed red;
+}
+#select_weapon{
+	margin: 1em auto 0 auto;
+	max-width: 47%;
+	background-color: rgba(250,50,50,1);
+	border-radius: 70px;
+	padding:.1em 0 .2em 0;
+	color:white;
+	cursor:pointer; 
 }
 
 
