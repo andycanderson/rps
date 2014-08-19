@@ -41,13 +41,13 @@ function get_image(x){
 	var image;
 	switch (x){
 		case 1:
-			image = "http://goo.gl/lmdIz7"
+			image = "images/rock.jpeg"
 			break;
 		case 2:
-			image = "http://goo.gl/BK0dP5"
+			image = "images/paper.jpeg"
 			break;
 		default:
-			image = "http://goo.gl/IY1Lf7"
+			image = "images/scissors.jpeg"
 	}
 	return image;
 
@@ -56,13 +56,13 @@ function get_count_down_image(x){
 	var image;
 	switch (x){
 		case 3:
-			image = "http://goo.gl/lmdIz7"
+			image = "images/rock.jpeg"
 			break;
 		case 2:
-			image = "http://goo.gl/BK0dP5"
+			image = "images/paper.jpeg"
 			break;
 		default:
-			image = "http://goo.gl/IY1Lf7"
+			image = "images/scissors.jpeg"
 	}
 	return image;
 }

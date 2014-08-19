@@ -83,13 +83,13 @@ h2{
 	background-repeat: no-repeat;
 }
 #rock{
-	background-image: url("http://goo.gl/lmdIz7");
+	background-image: url("../images/rock.jpeg");
 }
 #paper{
-	background-image: url("http://goo.gl/BK0dP5");
+	background-image: url("../images/paper.jpeg");
 }
 #scissors{
-	background-image: url("http://goo.gl/IY1Lf7");
+	background-image: url("../images/scissors.jpeg");
 }
 
 .cf:before, .cf:after { content: ""; display: table; }
