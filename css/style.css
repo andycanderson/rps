@@ -1,5 +1,25 @@
 body{
 	font-family: 'Poiret One', cursive;
+	-webkit-animation: fadeIn 1s; /* Safari 4+ */
+	-moz-animation:    fadeIn 1s; /* Fx 5+ */
+	-o-animation:      fadeIn 1s; /* Opera 12+ */
+	animation:         fadeIn 1s; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0;}
+  100%{ opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100%{ opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100%{ opacity: 1; }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100%{ opacity: 1; }
 }
 h1{
 	margin-top: 1em;
