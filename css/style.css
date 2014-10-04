@@ -1,9 +1,9 @@
 body{
 	font-family: 'Poiret One', cursive;
-	-webkit-animation: fadeIn 1s; /* Safari 4+ */
-	-moz-animation:    fadeIn 1s; /* Fx 5+ */
-	-o-animation:      fadeIn 1s; /* Opera 12+ */
-	animation:         fadeIn 1s; /* IE 10+, Fx 29+ */
+	-webkit-animation: fadeIn 2s; /* Safari 4+ */
+	-moz-animation:    fadeIn 2s; /* Fx 5+ */
+	-o-animation:      fadeIn 2s; /* Opera 12+ */
+	animation:         fadeIn 2s; /* IE 10+, Fx 29+ */
 }
 @-webkit-keyframes fadeIn {
   0%   { opacity: 0;}
