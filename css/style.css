@@ -113,7 +113,7 @@ h2{
 	width:300px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 230px;
+	background-size: 230px 230px;
 }
 #rock{
 	background-image: url("../images/rock.jpeg");
