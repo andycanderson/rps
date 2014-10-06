@@ -1,0 +1,9 @@
+{
+  "firebase": "rockpaperscissors",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
